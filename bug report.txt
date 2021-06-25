@@ -1,0 +1,14 @@
+Bug report for "https://qainterview.pythonanywhere.com/"
+
+1. The result does not get updated when the input number is greater than 989.
+For example, input 989 shows "The factorial of 989 is: Infinity"
+but giving 990, the output message stays the same.
+It seems like the program only prints out "Infinity" if the input number is greater than 170. It should be consistent for input numbers greater than 990
+
+2. The result does not get updated when the input number is less than 0
+Showing similar behaviour as the previous bug.
+As the question mentioned, n has to be greater than or equal to zero.
+Providing negative input does not show any error message such as "Please enter the positive number". It is hard to see it is designed to do so because it prints the error message "Please enter an integer" with a red highlighted input box. It should do the same thing for negative integer input.
+
+3. Minor bugs - not related to the functional aspect of the calculator
+Clicking "Terms and Conditions" leads users to privacy documents, vice versa, clicking "Privacy" leads users to terms and conditions documents.
